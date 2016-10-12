@@ -1,38 +1,34 @@
-¿Õ¾ü½¨¾ü½ÚÄÏ¾©ÄÏ¾©ÄÄ¼ÒºÃºÃ
-zf8500
-zf02070215
-18670697833@163.com
-c-feng.zhou@dji.com
 
-1. git °æ±¾¿ØÖÆÏµÍ³
 
-Ïà±ÈCVS\SVNÓÅÊÆ£º
+1. git ç‰ˆæœ¬æ§åˆ¶ç³»ç»Ÿ
 
-£­ Ö§³ÖÀëÏß¿ª·¢£¬ÀëÏßRepository
+ç›¸æ¯”CVS\SVNä¼˜åŠ¿ï¼š
 
-£­ Ç¿´óµÄ·ÖÖ§¹¦ÄÜ£¬ÊÊºÏ¶à¸ö¶ÀÁ¢¿ª·¢ÕßĞ­×÷
+ï¼ æ”¯æŒç¦»çº¿å¼€å‘ï¼Œç¦»çº¿Repository
 
-£­ ËÙ¶È¿é
+ï¼ å¼ºå¤§çš„åˆ†æ”¯åŠŸèƒ½ï¼Œé€‚åˆå¤šä¸ªç‹¬ç«‹å¼€å‘è€…åä½œ
 
-ps:¹ØÓÚgitµÄ¸üÏêÏ¸µÄ½éÉÜÓÚÓÅµãÔÚ´Ë¾Í²»½éÉÜÁË£¬½Ì´ó¼ÒÔõÃ´ÓÃÊÇ¹Ø¼ü¡£:£©
+ï¼ é€Ÿåº¦å—
 
-==============ÔËĞĞ»·¾³========
+ps:å…³äºgitçš„æ›´è¯¦ç»†çš„ä»‹ç»äºä¼˜ç‚¹åœ¨æ­¤å°±ä¸ä»‹ç»äº†ï¼Œæ•™å¤§å®¶æ€ä¹ˆç”¨æ˜¯å…³é”®ã€‚:ï¼‰
 
-ÏµÍ³£ºwindows
+==============è¿è¡Œç¯å¢ƒ========
 
-git : Git-1.7.3.1-preview20101002.rar  ÏÂÔØµØÖ·£ºhttp://d.download.csdn.net/down/3169511/z_y_liu89
+ç³»ç»Ÿï¼šwindows
+
+git : Git-1.7.3.1-preview20101002.rar  ä¸‹è½½åœ°å€ï¼šhttp://d.download.csdn.net/down/3169511/z_y_liu89
 
 ===========================
 
-2. githubÊÇÒ»¸ögitÏîÄ¿ÍĞ¹ÜÍøÕ¾
+2. githubæ˜¯ä¸€ä¸ªgité¡¹ç›®æ‰˜ç®¡ç½‘ç«™
 
-×¢²áµØÖ·£ºhttps://github.com/signup/free
+æ³¨å†Œåœ°å€ï¼šhttps://github.com/signup/free
 
-3. °²×°git³ÌĞò£¬Ö´ĞĞÏÂÃæ²Ù×÷
+3. å®‰è£…gitç¨‹åºï¼Œæ‰§è¡Œä¸‹é¢æ“ä½œ
 
-$ cd ~/.ssh    //¼ì²é¼ÆËã»ússhÃÜÔ¿
+$ cd ~/.ssh    //æ£€æŸ¥è®¡ç®—æœºsshå¯†é’¥
 
-Èç¹ûÃ»ÓĞÌáÊ¾:No such file or directory ËµÃ÷Äã²»ÊÇµÚÒ»´ÎÊ¹ÓÃgit,Ö´ĞĞÏÂÃæµÄ²Ù×÷,ÇåÀíÔ­ÓĞsshÃÜÔ¿
+å¦‚æœæ²¡æœ‰æç¤º:No such file or directory è¯´æ˜ä½ ä¸æ˜¯ç¬¬ä¸€æ¬¡ä½¿ç”¨git,æ‰§è¡Œä¸‹é¢çš„æ“ä½œ,æ¸…ç†åŸæœ‰sshå¯†é’¥
 
 $ ls
 
@@ -44,99 +40,99 @@ $ cp id_rsa* key_backup
 
 $ rm id_rsa*
 
-»ñµÃÃÜÔ¿£º
+è·å¾—å¯†é’¥ï¼š
 
-ssh-keygen -t rsa -C "defnngj@gmail.com"//ÌîĞ´emailµØÖ·£¬È»ºóÒ»Ö±¡°»Ø³µ¡±ok
+ssh-keygen -t rsa -C "defnngj@gmail.com"//å¡«å†™emailåœ°å€ï¼Œç„¶åä¸€ç›´â€œå›è½¦â€ok
 
-´ò¿ª±¾µØ..\.ssh\id_rsa.pubÎÄ¼ş¡£´ËÎÄ¼şÀïÃæÄÚÈİÎª¸Õ²ÅÉú³ÉÈËÃÜÔ¿¡£
+æ‰“å¼€æœ¬åœ°..\.ssh\id_rsa.pubæ–‡ä»¶ã€‚æ­¤æ–‡ä»¶é‡Œé¢å†…å®¹ä¸ºåˆšæ‰ç”Ÿæˆäººå¯†é’¥ã€‚
 
 
-²é¿´ÃØÔ¿£º
+æŸ¥çœ‹ç§˜é’¥ï¼š
 $ cat id_rsa.pub
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDd2K42S5ESkHtBngorNzrxkbHLscYWhA18ZDOT6MdrIOYSjJMi+9BQEWXBw7tIDVopa3fYt3alta+tG/+o84VyiI+U64YLMLvITU5weO6E7WhTAszt3/fCscngNL39WKiuewFh9eEKqk0KHJiXRh6jWIVbEiYBMgo1mTMcjPrbIuMIJa5EzZ8oJUMro47EB/AAaTKOvkbDXgUVrnvtfn23bZdZbaJ4l8xs7mNgNx+YivgCHIC7hsZ7/YNNGwEYj+02QoMrPbCNN0Gr930Bgg7YSkIiXh+daPGHBm+QKJf1Ro2/LFN1XVy7laEwfbu0puMXbKNhHo/zgvLGRr9x6hIV c-feng.zhou@dji.com
 
-4. µÇÂ½githubÏµÍ³¡£µã»÷ÓÒÉÏ½ÇµÄ Account Settings--->SSH Public keys ---> add another public keys
+4. ç™»é™†githubç³»ç»Ÿã€‚ç‚¹å‡»å³ä¸Šè§’çš„ Account Settings--->SSH Public keys ---> add another public keys
 
-°ÑÄã±¾µØÉú³ÉµÄÃÜÔ¿¸´ÖÆµ½ÀïÃæ£¨keyÎÄ±¾¿òÖĞ£©£¬ µã»÷ add key ¾ÍokÁË
+æŠŠä½ æœ¬åœ°ç”Ÿæˆçš„å¯†é’¥å¤åˆ¶åˆ°é‡Œé¢ï¼ˆkeyæ–‡æœ¬æ¡†ä¸­ï¼‰ï¼Œ ç‚¹å‡» add key å°±okäº†
 
-5. ½Ó×Å´ò¿ªgit £¬²âÊÔÁ¬½ÓÊÇ·ñ³É¹¦
+5. æ¥ç€æ‰“å¼€git ï¼Œæµ‹è¯•è¿æ¥æ˜¯å¦æˆåŠŸ
 
 $ ssh -T git@github.com
 
-Èç¹ûÌáÊ¾£ºHi defnngj You've successfully authenticated, but GitHub does not provide shell access. ËµÃ÷ÄãÁ¬½Ó³É¹¦ÁË
+å¦‚æœæç¤ºï¼šHi defnngj You've successfully authenticated, but GitHub does not provide shell access. è¯´æ˜ä½ è¿æ¥æˆåŠŸäº†
 
-6. ÉèÖÃÓÃ»§ĞÅÏ¢£º
+6. è®¾ç½®ç”¨æˆ·ä¿¡æ¯ï¼š
 
 6.1
 
-$ git config --global user.name "defnngj"//¸ø×Ô¼ºÆğ¸öÓÃ»§Ãû
+$ git config --global user.name "defnngj"//ç»™è‡ªå·±èµ·ä¸ªç”¨æˆ·å
 
-$ git config --global user.email  "defnngj@gmail.com"//ÌîĞ´×Ô¼ºµÄÓÊÏä
+$ git config --global user.email  "defnngj@gmail.com"//å¡«å†™è‡ªå·±çš„é‚®ç®±
 
 6.2
 
-ÔÚgithubÖĞÕÒµ½ Account Settings--->Account Admin ,ÕÒµ½Ò»ÏÂĞÅÏ¢£º
+åœ¨githubä¸­æ‰¾åˆ° Account Settings--->Account Admin ,æ‰¾åˆ°ä¸€ä¸‹ä¿¡æ¯ï¼š
 
 Your API token is e97279836f0d415a3954c1193dba522f ---keep it secret! Changing your password will
 
 generate a new token
 
-$ git config --global github.user defnngj      //github ÉÏµÄÓÃ»§Ãû
+$ git config --global github.user defnngj      //github ä¸Šçš„ç”¨æˆ·å
 
 $ git config --global github.token e97279836f0d415a3954c1193dba522f
 
-====================´´½¨Ò»¸öÏîÄ¿========================
+====================åˆ›å»ºä¸€ä¸ªé¡¹ç›®========================
 
-1. »Øµ½githubÊ×Ò³£¬µã»÷Ò³ÃæÓÒÏÂ½Ç¡°New Repository¡±
+1. å›åˆ°githubé¦–é¡µï¼Œç‚¹å‡»é¡µé¢å³ä¸‹è§’â€œNew Repositoryâ€
 
-ÌîĞ´ÏîÄ¿ĞÅÏ¢£º
+å¡«å†™é¡¹ç›®ä¿¡æ¯ï¼š
 
 project name: hello world
 
 description : my first project
 
-µã»÷¡°Create Repository¡± £» ÏÖÔÚÍê³ÉÁËÒ»¸öÏîÄ¿ÔÚgithubÉÏµÄ´´½¨¡£
+ç‚¹å‡»â€œCreate Repositoryâ€ ï¼› ç°åœ¨å®Œæˆäº†ä¸€ä¸ªé¡¹ç›®åœ¨githubä¸Šçš„åˆ›å»ºã€‚
 
-2. ÎÒÃÇĞèÒªÊ¹ÓÃgitÔÚ±¾µØ´´½¨Ò»¸öÏàÍ¬µÄÏîÄ¿¡£
+2. æˆ‘ä»¬éœ€è¦ä½¿ç”¨gitåœ¨æœ¬åœ°åˆ›å»ºä¸€ä¸ªç›¸åŒçš„é¡¹ç›®ã€‚
 
-$ makdir ~/hello-world    //´´½¨Ò»¸öÏîÄ¿hello-world
+$ makdir ~/hello-world    //åˆ›å»ºä¸€ä¸ªé¡¹ç›®hello-world
 
-$ cd ~/hello-world    //´ò¿ªÕâ¸öÏîÄ¿
+$ cd ~/hello-world    //æ‰“å¼€è¿™ä¸ªé¡¹ç›®
 
-$ git init    //³õÊ¼»¯
+$ git init    //åˆå§‹åŒ–
 
 $ touch README
 
-$ git add README   //¸üĞÂREADMEÎÄ¼ş
+$ git add README   //æ›´æ–°READMEæ–‡ä»¶
 
-$ git commit -m 'first commit'//Ìá½»¸üĞÂ£¬²¢×¢ÊÍĞÅÏ¢¡°first commit¡±
+$ git commit -m 'first commit'//æäº¤æ›´æ–°ï¼Œå¹¶æ³¨é‡Šä¿¡æ¯â€œfirst commitâ€
 
-$ git remote add origin git@github.com:defnngj/hello-world.git   //Á¬½ÓÔ¶³ÌgithubÏîÄ¿  
+$ git remote add origin git@github.com:defnngj/hello-world.git   //è¿æ¥è¿œç¨‹githubé¡¹ç›®  
 
-$ git push -u origin master   //½«±¾µØÏîÄ¿¸üĞÂµ½githubÏîÄ¿ÉÏÈ¥
+$ git push -u origin master   //å°†æœ¬åœ°é¡¹ç›®æ›´æ–°åˆ°githubé¡¹ç›®ä¸Šå»
 
-ÏÖÔÚ²é¿´githubÉÏÃæµÄhello world ÏîÄ¿£¬ÊÇ²»ÊÇ·¢ÏÖÒÑ¾­½«±¾µØÖĞµÄREADMEÎÄ¼ş¸üĞÂÉÏÀ´ÁË¡£ :) ¹§Ï²£¡
+ç°åœ¨æŸ¥çœ‹githubä¸Šé¢çš„hello world é¡¹ç›®ï¼Œæ˜¯ä¸æ˜¯å‘ç°å·²ç»å°†æœ¬åœ°ä¸­çš„READMEæ–‡ä»¶æ›´æ–°ä¸Šæ¥äº†ã€‚ :) æ­å–œï¼
 
-------------------------------------¹ØÓÚ¿ÉÄÜ³öÏÖµÄ´íÎó----------------------------------
+------------------------------------å…³äºå¯èƒ½å‡ºç°çš„é”™è¯¯----------------------------------
 
-1.ÔÚÖ´ĞĞ
+1.åœ¨æ‰§è¡Œ
 
 $ git remote addorigin git@github.com:defnngj/hello-world.git
 
-´íÎóÌáÊ¾£ºfatal: remote origin already exists.
+é”™è¯¯æç¤ºï¼šfatal: remote origin already exists.
 
-½â¾ö°ì·¨£º
+è§£å†³åŠæ³•ï¼š
 
 $ git remote rm origin
 
-È»ºóÔÚÖ´ĞĞ£º$ git remote add origin git@github.com:defnngj/hello-world.git ¾Í²»»á±¨´íÎóÁË
+ç„¶ååœ¨æ‰§è¡Œï¼š$ git remote add origin git@github.com:defnngj/hello-world.git å°±ä¸ä¼šæŠ¥é”™è¯¯äº†
 
-2. ÔÚÖ´ĞĞ
+2. åœ¨æ‰§è¡Œ
 
 $ git push origin master
 
-´íÎóÌáÊ¾£ºerror:failed to push som refs to.......
+é”™è¯¯æç¤ºï¼šerror:failed to push som refs to.......
 
-½â¾ö°ì·¨£º
+è§£å†³åŠæ³•ï¼š
 
-$ git pull origin master //ÏÈ°ÑÔ¶³Ì·şÎñÆ÷githubÉÏÃæµÄÎÄ¼şÀ­ÏÈÀ´£¬ÔÙpush ÉÏÈ¥¡£
+$ git pull origin master //å…ˆæŠŠè¿œç¨‹æœåŠ¡å™¨githubä¸Šé¢çš„æ–‡ä»¶æ‹‰å…ˆæ¥ï¼Œå†push ä¸Šå»ã€‚
